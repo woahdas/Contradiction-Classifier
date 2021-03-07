@@ -1,4 +1,5 @@
 #this is using the RoBERTa model, which is made by Facebook.
+#Couldn't get this to work on PyCharm, it wouldn't install pytorch or torch (either is required for RoBERTa to function).
 import numpy as np
 import pandas as pd
 import tensorflow as tf

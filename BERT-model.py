@@ -1,4 +1,4 @@
-#again, Kaggle wouldn't download anything from external sources, so I couldn't run this on Kaggle, but tried it on Pycharm with a different version and it worked.
+#again, Kaggle wouldn't download anything from external sources, so I couldn't run this on Kaggle, but tried it on Pycharm with a modified version and it worked.
 import numpy as np  # linear algebra
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 from transformers import BertTokenizer, TFBertModel

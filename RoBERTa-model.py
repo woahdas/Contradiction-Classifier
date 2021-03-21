@@ -75,9 +75,9 @@ max_len = 50
 model.fit(train_input, train.label.values, epochs=2, verbose=1, batch_size=64, validation_split=0.2)
 
 predictions = model.predict()
-f = open("LesGen.txt", "x")
+f = open("Les.txt", "x") #create Les.txt
 f.close()
 
-f = open("LesGen.txt", "a")
+f = open("Les.txt", "a") #append to Les.txt
 f.write(predictions)
 f.close()
